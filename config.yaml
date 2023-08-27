@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# ²Ù×÷¼ä¸ôÊ±³¤
+# æ“ä½œé—´éš”æ—¶é—´
 sleep_time: 2
-# ×î´ó·¢ËÍĞÅÏ¢Êı(0±íÊ¾ÎŞÏŞÖÆ)
+# æœ€å¤§å‘é€æ¶ˆæ¯æ•°(-1è¡¨ç¤ºæ— é™åˆ¶)
 message_max: 100
-# ÏûÏ¢Ä£°åÇĞ»»¼ä¸ôÊ±³¤£¨µ¥Î»:min£©
+# æ¶ˆæ¯æ¨¡æ¿è½®æ¢æ—¶é•¿(å•ä½:min)
 message_switch_time: 2
-# ´ı·¢ËÍÏûÏ¢Ä£°å
+# ä¿¡æ¯æ¨¡æ¿
 send_messages:
+  - message: 'ä½ å¥½'
   - message: 'hi'
-  - message: 'hh'
-# Éè±¸
+# è®¾å¤‡
 devices:
   - dev_name: 'KB6DUWZT85DMRCC6'
     dev_number: '1'
@@ -20,19 +20,19 @@ devices:
 #    dev_username: ''
 #    dev_password: ''
 
-# Èí¼ş°üÃû
+# è½¯ä»¶åŒ…å
 package_name: 'com.ss.android.ugc.aweme'
-# Èí¼şÖ÷Ò³
+# è½¯ä»¶ä¸»é¡µ
 home_page: '.splash.SplashActivity'
-# ¹Ø×¢°´Å¥
+# å…³æ³¨æŒ‰é’®
 concern: 'com.ss.android.ugc.aweme:id/hjc'
-# Ë½ĞÅ°´Å¥
+# ç§ä¿¡æŒ‰é’®
 private_messages: 'com.ss.android.ugc.aweme:id/s1f'
-# Ë½ĞÅ¿ò
+# ç§ä¿¡æ¶ˆæ¯æ¡†
 private_message_box: 'com.ss.android.ugc.aweme:id/nv2'
-# ·¢ËÍ°´Å¥
+# å‘é€æŒ‰é’®
 send_button: 'com.ss.android.ugc.aweme:id/j2'
-# ÓÃ»§Ö÷Ò³
+# è¿›å…¥ç”¨æˆ·ä¸»é¡µ
 user_home: 'com.ss.android.ugc.aweme:id/user_avatar'
-# ÆÀÂÛÇø
+# è¯„è®ºåŒº
 comment_area: 'com.ss.android.ugc.aweme:id/dc_'

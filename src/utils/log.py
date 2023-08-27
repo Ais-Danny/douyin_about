@@ -1,6 +1,6 @@
 import logging
 from colorama import Fore, Style
-logging.basicConfig(filename="../out.log", filemode="a",encoding="utf-8",
+logging.basicConfig(filename="out.log", filemode="a",encoding="utf-8",
                     format="%(asctime)s %(name)s:%(levelname)s:%(message)s",
                     datefmt="%d-%M-%Y %H:%M:%S", level=logging.INFO)
 

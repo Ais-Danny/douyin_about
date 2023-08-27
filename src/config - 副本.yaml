@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# 操作间隔时间
+# 操作间隔时间(单位:s)
 sleep_time: 2
 # 最大发送消息数(-1表示无限制)
 message_max: 100
 # 消息模板轮换时长(单位:min)
-message_switch_time: 2
+message_switch_time: 5
 # 信息模板
 send_messages:
   - message: '你好'

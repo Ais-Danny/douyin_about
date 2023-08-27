@@ -11,7 +11,6 @@ def task():
     while True:
         for message in config.send_messages:
             config.message = message['message']
-            print(config.message)
             time.sleep(config.message_switch_time*60)
 
 

@@ -39,6 +39,7 @@ class Device:
             self.DEV.set_fastinput_ime(True)
             self.DEV.app_start(config.package_name, config.home_page)
             self.DEV_ADB_STATUS = True
+            log.info(self, f'建立连接成功!!! ')
         except Exception as e:
             log.error(self, f'adb连接异常!!! {str(e)}')
             self.DEV_ADB_STATUS = False
