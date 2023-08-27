@@ -1,0 +1,38 @@
+# -*- coding: utf-8 -*-
+# 操作间隔时间
+sleep_time: 2
+# 最大发送消息数(-1表示无限制)
+message_max: 100
+# 消息模板轮换时长(单位:min)
+message_switch_time: 2
+# 信息模板
+send_messages:
+  - message: '你好'
+  - message: 'hi'
+# 设备
+devices:
+  - dev_name: 'KB6DUWZT85DMRCC6'
+    dev_number: '1'
+    dev_username: ''
+    dev_password: ''
+#  - dev_name: '192.168.2.188:5555'
+#    dev_number: '2'
+#    dev_username: ''
+#    dev_password: ''
+
+# 软件包名
+package_name: 'com.ss.android.ugc.aweme'
+# 软件主页
+home_page: '.splash.SplashActivity'
+# 关注按钮
+concern: 'com.ss.android.ugc.aweme:id/hjc'
+# 私信按钮
+private_messages: 'com.ss.android.ugc.aweme:id/s1f'
+# 私信消息框
+private_message_box: 'com.ss.android.ugc.aweme:id/nv2'
+# 发送按钮
+send_button: 'com.ss.android.ugc.aweme:id/j2'
+# 进入用户主页
+user_home: 'com.ss.android.ugc.aweme:id/user_avatar'
+# 评论区
+comment_area: 'com.ss.android.ugc.aweme:id/dc_'
